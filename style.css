@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5),#009688) ,url(Barber_Shop_img/banner.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+   
+}
+.logo{
+    position: relative;
+    top: 25px;
+    left: 100px;
+    width: 140px;
+}
+
+.text{
+     position: relative;
+    top: 20%;
+    text-align: center;
+
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 140px;
+    color: azure;
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+   color: azure;
+   font-family: 'Poppins', sans-serif;
+}
+.button{
+    margin: 70px auto 0;
+    color: azure;
+}
+
+.button a{
+  width: 140px;
+  text-decoration: none;
+  padding: 12px 0;
+  border: 0.5px solid white;
+  display: inline-block;
+  color: azure;
+  margin: 0 10px;
+  position: relative;
+  z-index: 1;
+  transition: color 0.5s;
+  
+
+  
+  
+}
+
+.button a span{
+   width:0%;
+   height: 100%;
+   position:absolute;
+   top: 0;
+   left: 0;
+   background: white;
+   z-index: -1;
+   transition: 0.5s;
+
+}
+
+
+.button a:hover span{
+   width: 100%;
+}
+
+.button a:hover{
+   color: #000;
+}
+
+#sidenav{
+    width: 200px;
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0;
+   background: #009688;
+   z-index: 2;
+
+   
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+.dropdown{
+    position: absolute;
+    
+    
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+   
+    
+  
+
+    
+    
+}
+
+ .btn{
+    background-color: #009688;
+    width: 60px;
+    
+}
+
+.dropdown-menu{
+    height: 100vh;
+    transition: 0.5s;
+    width: 200px;
+    
+
+    
+}
+
+.dropdown-menu li{
+    margin: 10px;
+    
+}
+
+.f{
+    color: #009688;
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    
+
+ }
+ .h{
+    color: black;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    
+ }
+
+ #features{
+    text-align: center;
+   margin-top: 30px;
+   flex-basis: 50%;
+   
+ }
+
+
+ 
+
+
+ .features-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    position: relative;
+    
+    
+ }
+
+ .image{
+    margin-top: 80px;
+    position: relative;
+    left: 90%;
+    bottom: 80px;
+  
+    
+ }
+
+ .image img{
+    height: 90%;
+    width: 60%;
+    position: relative;
+    left: 10%;
+    border-radius: 10px;
+    bottom: 630px;
+    margin-top: 35px;
+
+    
+
+ }
+.ex{
+    font-size: 40px;
+    margin-top: 30%;
+    color: #009688;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 100px;
+    
+}
+
+ .icon img {
+    height: 60px;
+    width: 60px;
+    border: 1px solid #009688;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding: 10px;
+ }
+
+ .exe{
+    color: black;
+    margin-left: 80px;
+    position: relative;
+    bottom: 50px;
+ }
+ 
+ .over{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100vh;
+ }
+
+ #next{
+    position: relative;
+    bottom: 650px;
+    left: 400px;
+    align-items: center;
+    
+ }
+
+ .k{
+    margin-left: 130px;
+    color: #009688;
+    font-size: large ;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .service-box{
+    position: relative;
+    bottom: 600px;
+    width: 600px;
+    
+    right:  20px;
+    display: flex;
+
+    
+    
+    
+ }
+
+ 
+ .service-box img{
+    margin: 10px;
+    border-radius: 10px;
+    height: 400px;
+    
+ }
+  
+ #test{
+    position: relative;
+    bottom: 550px;
+    left: 400px;
+    align-items: center;
+ }
+
+ .l{
+    margin-left: 100px;
+    color: #009688;
+    font-size: large ;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+ }
+
+ .rat{
+    position: relative;
+    right: 200px;
+    top: 60px;
+    
+ }
+
+ .px-xl-3{
+    color: black;
+ }
+
+ #footer{
+    position: relative;
+    text-align: center;
+    bottom: 500px;
+    left: 150px;
+    margin-top: 30px;
+    
+
+ }
+ 
+ .i{
+    color: black;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 100px;
+ }
+
+ .o{
+   font-size: 20px;
+   color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   position: relative;
+   bottom: 420px;
+   left: 20px;
+ }
+
+ .t{
+   position: relative;
+   font-size: 20px;
+   color: black;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+   position: relative;
+   left: 900px;
+   bottom: 542px;
+ }
+ 
+ .m{
+   color: black;
+   position: relative;
+   bottom: 400px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 20px;
+   
+
+ }
+ .n{
+   color: black;
+   position: relative ;
+   left: 900px;
+   bottom: 530px;
+ }
+
+ .face img{
+   height: 38px;
+   margin-right: 20px;
+   border: 1px solid #009688;
+   padding: 6px;
+   border-radius: 10px;
+   position: relative;
+   bottom: 5px;
+   margin-left: 80px;
+ }
+ 
+ .insta img{
+   height: 34px;
+   margin-right: 10px;
+   border: 1px solid #009688;
+   padding: 1px;
+   border-radius: 10px;
+   position: relative;
+   bottom: 3px;
+ }
+
+ .twi img{
+   height: 34px;
+   border: 1px solid #009688;
+   padding: 4px;
+   border-radius: 10px;
+   position: relative;
+   bottom: 3px;
+   margin-left: 6px;
+   margin-right: 6px;
+ }
+ 
+ 
+
+ .ico{
+   display: flex;
+   position: relative;
+   left: 400px;
+   bottom: 500px;
+   
+
+ }
+ 
